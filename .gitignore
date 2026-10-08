@@ -1,11 +1,13 @@
-# Godot 4+ specific ignores
+# Godot
 .godot/
-/android/
-*.import/
-export.cfg
-data_*/
+*.import
+**/data_*/
+
+# Directories
+android/
 dist/
+
+# Configuration & Temp files
+export.cfg
 *.vs
 *.tmp
-*blend1
-*.DS_Store
