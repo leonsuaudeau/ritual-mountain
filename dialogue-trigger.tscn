@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://r15n7o8n2uq3"]
+
+[ext_resource type="Script" uid="uid://dkn8wv7teamdj" path="res://dialogue_trigger.gd" id="1_3o555"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1l78s"]
+
+[node name="DialogueTrigger" type="Area2D" unique_id=219518176]
+script = ExtResource("1_3o555")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=686017023]
+shape = SubResource("RectangleShape2D_1l78s")

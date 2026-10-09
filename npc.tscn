@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cawvu4q8pgauy"]
+
+[ext_resource type="PackedScene" uid="uid://r15n7o8n2uq3" path="res://dialogue-trigger.tscn" id="1_xxcha"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d2w3g"]
+size = Vector2(14, 31)
+
+[node name="NPC" type="CharacterBody2D" unique_id=917591221]
+
+[node name="DialogueTrigger" parent="." unique_id=219518176 instance=ExtResource("1_xxcha")]
+scale = Vector2(2.4000018, 1.6)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1868304630]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_d2w3g")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=669802755]
