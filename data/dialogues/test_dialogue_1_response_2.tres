@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DialogueResponse" format=3 uid="uid://byxfm58013712"]
+
+[ext_resource type="Resource" uid="uid://t8yishhbb1t7" path="res://data/dialogues/test_dialogue_2.tres" id="1_71h1s"]
+[ext_resource type="Script" uid="uid://t1iwcrddw7gm" path="res://scripts/dialogue_response.gd" id="2_0xrfa"]
+
+[resource]
+script = ExtResource("2_0xrfa")
+text = "No thank you."
+next_node = ExtResource("1_71h1s")
+metadata/_custom_type_script = "uid://t1iwcrddw7gm"

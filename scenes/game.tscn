@@ -6,6 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://d1psxjysqvs51" path="res://scenes/dialogue-box.tscn" id="4_7jktm"]
 [ext_resource type="Resource" uid="uid://bh5lex42mfw54" path="res://data/dialogues/test_dialogue_1.tres" id="4_ryrav"]
 [ext_resource type="Texture2D" uid="uid://c6qamop27uh2w" path="res://assets/textures/test_npc.png" id="5_eow3j"]
+[ext_resource type="Texture2D" uid="uid://bbu2joxg0buvn" path="res://assets/textures/test_npc_dialogue.png" id="7_u5sy4"]
+[ext_resource type="Texture2D" uid="uid://c8l0exij1rr5r" path="res://assets/textures/test_player_dialogue.png" id="8_gee14"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fc0e3"]
 texture = ExtResource("1_e2o6t")
@@ -41,4 +43,11 @@ texture = ExtResource("5_eow3j")
 offset_left = -1.0
 offset_right = 39.0
 
+[node name="NonPlayerImage" parent="CanvasLayer/DialogueBox" index="1" unique_id=1873662644]
+texture = ExtResource("7_u5sy4")
+
+[node name="PlayerImage" parent="CanvasLayer/DialogueBox" index="2" unique_id=406434919]
+texture = ExtResource("8_gee14")
+
 [editable path="TestNPC"]
+[editable path="CanvasLayer/DialogueBox"]

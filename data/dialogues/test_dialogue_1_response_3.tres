@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DialogueResponse" format=3 uid="uid://bcogvtbb7j0j"]
+
+[ext_resource type="Resource" uid="uid://t8yishhbb1t7" path="res://data/dialogues/test_dialogue_2.tres" id="1_jiqf4"]
+[ext_resource type="Script" uid="uid://t1iwcrddw7gm" path="res://scripts/dialogue_response.gd" id="2_m48ga"]
+
+[resource]
+script = ExtResource("2_m48ga")
+text = "I shall end your evil temptations wench!"
+next_node = ExtResource("1_jiqf4")
+metadata/_custom_type_script = "uid://t1iwcrddw7gm"

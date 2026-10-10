@@ -42,8 +42,13 @@ func show_node(node: DialogueNode)  -> void:
 		choices.add_child(button)
 
 func _on_response_selected(response: DialogueResponse) -> void:
+	print("Response: ", response.text)
+	print("Response resource: ", response)
+	print("Next node: ", response.next_node)
 	if response.set_flag != &"":
 		GameState.set_flag(response.set_flag)
+	
+	print(response.next_node)
 		
 	if response.next_node == null:
 		_finish_dialogue()

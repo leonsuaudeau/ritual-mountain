@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://d0p33loqixmjl" path="res://scripts/dialogue_box.gd" id="1_21lay"]
 [ext_resource type="FontFile" uid="uid://mn7smiimin0o" path="res://assets/fonts/fraunces-latin-400-normal.ttf" id="2_d8bld"]
 [ext_resource type="FontFile" uid="uid://bawmk2fknd57i" path="res://assets/fonts/fraunces-latin-200-normal.ttf" id="2_sim7p"]
-[ext_resource type="Texture2D" uid="uid://bbu2joxg0buvn" path="res://assets/textures/test_npc_dialogue.png" id="4_qyjhy"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_21lay"]
 font = ExtResource("2_d8bld")
@@ -27,10 +26,9 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -332.0
-offset_top = -100.0
-offset_right = 268.0
-offset_bottom = -6.0
+offset_left = -275.0
+offset_top = -94.0
+offset_right = 275.0
 grow_horizontal = 2
 grow_vertical = 0
 
@@ -52,11 +50,17 @@ fit_content = true
 [node name="Choices" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=654342795]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1873662644]
+[node name="NonPlayerImage" type="TextureRect" parent="." unique_id=1873662644]
 layout_mode = 0
-offset_left = 852.00006
-offset_top = 387.00003
-offset_right = 980.00006
+offset_left = 890.315
+offset_top = 387.0
+offset_right = 1018.315
 offset_bottom = 515.0
 scale = Vector2(2.04, 2.04)
-texture = ExtResource("4_qyjhy")
+
+[node name="PlayerImage" type="TextureRect" parent="." unique_id=406434919]
+layout_mode = 1
+offset_top = 387.0
+offset_right = 128.0
+offset_bottom = 515.0
+scale = Vector2(2.04, 2.04)

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DialogueNode" format=3 uid="uid://t8yishhbb1t7"]
+
+[ext_resource type="Script" uid="uid://t1iwcrddw7gm" path="res://scripts/dialogue_response.gd" id="1_svgcm"]
+[ext_resource type="Script" uid="uid://dvrbanor6bym0" path="res://scripts/dialogue_node.gd" id="2_tjoxs"]
+
+[resource]
+script = ExtResource("2_tjoxs")
+id = &"1"
+speaker = "You"
+text = "I  thank you humbly for the invitation but  sadly I must decline. Being here on urgent business, I cannot afford to spend any time on the satisfaction of carnal needs."
+metadata/_custom_type_script = "uid://dvrbanor6bym0"
