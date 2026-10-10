@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://d1psxjysqvs51"]
 
-[ext_resource type="Script" uid="uid://d0p33loqixmjl" path="res://dialogue_box.gd" id="1_21lay"]
+[ext_resource type="Script" uid="uid://d0p33loqixmjl" path="res://scripts/dialogue_box.gd" id="1_21lay"]
 [ext_resource type="FontFile" uid="uid://mn7smiimin0o" path="res://assets/fonts/fraunces-latin-400-normal.ttf" id="2_d8bld"]
 [ext_resource type="FontFile" uid="uid://bawmk2fknd57i" path="res://assets/fonts/fraunces-latin-200-normal.ttf" id="2_sim7p"]
 [ext_resource type="Texture2D" uid="uid://bbu2joxg0buvn" path="res://assets/textures/test_npc_dialogue.png" id="4_qyjhy"]

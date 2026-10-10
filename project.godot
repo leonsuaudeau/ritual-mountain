@@ -13,12 +13,7 @@ config_version=5
 config/name="Ritual Mountain"
 run/main_scene="uid://eck07q6j8g48"
 config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="uid://cusc5rhxb8jgc"
-
-[autoload]
-
-GameState="*uid://b7tf80gquihr3"
-InteractionManager="*uid://ccyr6bfqf2x1o"
+config/icon="uid://dyhhhq7gcvmua"
 
 [autoload]
 

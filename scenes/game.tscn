@@ -1,10 +1,10 @@
 [gd_scene format=4 uid="uid://eck07q6j8g48"]
 
 [ext_resource type="Texture2D" uid="uid://m0o1jyr8l85" path="res://assets/textures/test_platform.png" id="1_e2o6t"]
-[ext_resource type="PackedScene" uid="uid://dvtj4hpuj35or" path="res://player.tscn" id="2_feb5d"]
-[ext_resource type="PackedScene" uid="uid://cawvu4q8pgauy" path="res://npc.tscn" id="3_fc0e3"]
-[ext_resource type="PackedScene" uid="uid://d1psxjysqvs51" path="res://dialogue-box.tscn" id="4_7jktm"]
-[ext_resource type="Resource" uid="uid://bh5lex42mfw54" path="res://assets/dialogues/test_dialogue_1.tres" id="4_ryrav"]
+[ext_resource type="PackedScene" uid="uid://dvtj4hpuj35or" path="res://scenes/player.tscn" id="2_feb5d"]
+[ext_resource type="PackedScene" uid="uid://cawvu4q8pgauy" path="res://scenes/npc.tscn" id="3_fc0e3"]
+[ext_resource type="PackedScene" uid="uid://d1psxjysqvs51" path="res://scenes/dialogue-box.tscn" id="4_7jktm"]
+[ext_resource type="Resource" uid="uid://bh5lex42mfw54" path="res://data/dialogues/test_dialogue_1.tres" id="4_ryrav"]
 [ext_resource type="Texture2D" uid="uid://c6qamop27uh2w" path="res://assets/textures/test_npc.png" id="5_eow3j"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fc0e3"]
