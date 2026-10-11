@@ -12,7 +12,7 @@ func start_dialogue(start_node: DialogueNode) -> void:
 	show()
 	show_node(start_node)
 	
-func show_node(node: DialogueNode)  -> void:
+func show_node(node: DialogueNode) -> void:
 	current_node = node
 	speaker_label.text = node.speaker
 	dialogue_text.text = node.text
@@ -31,7 +31,7 @@ func show_node(node: DialogueNode)  -> void:
 		
 	for response in available_responses:
 		var button := Button.new()
-		button.text =  response.text
+		button.text = response.text
 		button.pressed.connect(_on_response_selected.bind(response))
 		choices.add_child(button)
 		
@@ -42,13 +42,8 @@ func show_node(node: DialogueNode)  -> void:
 		choices.add_child(button)
 
 func _on_response_selected(response: DialogueResponse) -> void:
-	print("Response: ", response.text)
-	print("Response resource: ", response)
-	print("Next node: ", response.next_node)
 	if response.set_flag != &"":
 		GameState.set_flag(response.set_flag)
-	
-	print(response.next_node)
 		
 	if response.next_node == null:
 		_finish_dialogue()
